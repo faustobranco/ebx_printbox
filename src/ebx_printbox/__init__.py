@@ -1,10 +1,10 @@
 #######################################################################################
-## Script Info:		box.py - Class with functions to create a virtual box on screen and print on then
+## Script Info:		ebx_printbox.py - Class with functions to create a virtual ebx_printbox on screen and print on then
 ##
 #######################################################################################
 ## Create Author:	Fausto Branco
 ## Create Date:		2021-05-14
-## Actual Version:  1.0.0
+## Actual Version:  1.0.2
 ## Description:		
 #######################################################################################
 
@@ -13,7 +13,7 @@ import sys
 import os
 import collections
 
-__version__ = '1.0.0'
+__version__ = '1.0.2'
 
 
 class pyBox:
