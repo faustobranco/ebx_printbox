@@ -81,7 +81,9 @@ for i in range(501):
     sleep(1)  # Time in seconds.
 
 ```
-###Results:
+
+### Results:
+
 [![asciicast](https://asciinema.org/a/414005.svg)](https://asciinema.org/a/414005)
 
 ---
@@ -159,6 +161,12 @@ for i in range(15):
 
 ```
 
+### Results:
+
+[![asciicast](https://asciinema.org/a/414011.svg)](https://asciinema.org/a/414011)
+
+---
+
 ##Multiprocessing
 **example3.py** - 2 Boxes with multiprocessing
 ```
@@ -180,7 +188,7 @@ lst_ObjBox[1].create_box()
 
 
 def multi_Box(int_Box):
-    for i in range(501):
+    for i in range(50):
         lst_ObjBox[int_Box].box_print('Texto: ' + str(i) + ' - Process: ' + str(
             os.getpid()) + ' Lorem ipsum dolor sit amet, ad suas sale eam, falli suavitate corrumpit an sit. Latine '
                            'viderer ex vis. Ex maiorum fuisset aliquando vix, in cum dicant gloriatur. Ei elit '
@@ -199,6 +207,12 @@ for obj_Process in lst_Process:
 
      
 ```
+
+###Results:
+
+[![asciicast](https://asciinema.org/a/414012.svg)](https://asciinema.org/a/414012)
+
+---
 
 ## Versioning
 ```
